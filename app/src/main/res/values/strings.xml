@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UAS_AKB</string>
+    <string name="nama">Kemas Risman Fauzan</string>
+    <string name="nim">10116313</string>
+    <string name="kelas">IF-7 / AKB-7</string>
+    <string name="kutipan">Berbuat baiklah selama kamu dikasih kesempatan untuk hidup</string>
+    <string name="contactfragment">Kontak</string>
+    <string name="notlp">089686050582</string>
+    <string name="email">kemasrisman17@gmail.com</string>
+    <string name="instagram">"@kemasrismaan"</string>
+    <string name="twitter">"@kemasrisman"</string>
+    <string name="github">github.com/ronagreat</string>
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/ic_local_phone_black_24dp"
+            android:background="#1A30F1"/>
+        <TextView
+            android:background="#1A30F1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontak"
+            android:gravity="center_horizontal"
+            android:textSize="23sp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/colorWhite"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20"
+                android:layout_margin="10dp"
+                android:background="@drawable/phoneimg"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:background="@drawable/boxrounded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notlp"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:layout_weight=".80"
+                android:textColor="@color/colorWhite"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20"
+                android:layout_margin="10dp"
+                android:background="@drawable/gmailimg"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:background="@drawable/boxrounded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:layout_weight=".80"
+                android:textColor="@color/colorWhite"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20"
+                android:layout_margin="10dp"
+                android:background="@drawable/igimg"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:background="@drawable/boxrounded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:layout_weight=".80"
+                android:textColor="@color/colorWhite"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20"
+                android:layout_margin="10dp"
+                android:background="@drawable/twitterimg"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:background="@drawable/boxrounded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:layout_weight=".80"
+                android:textColor="@color/colorWhite"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20"
+                android:layout_margin="10dp"
+                android:background="@drawable/gitimg"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:background="@drawable/boxrounded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/github"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:layout_weight=".80"
+                android:textColor="@color/colorWhite"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
